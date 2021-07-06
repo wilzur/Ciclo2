@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase02",
+            "request": "launch",
+            "mainClass": "Clase02",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase021",
+            "request": "launch",
+            "mainClass": "Clase021",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase031",
+            "request": "launch",
+            "mainClass": "Clase031",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase032",
+            "request": "launch",
+            "mainClass": "Clase032",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase041",
+            "request": "launch",
+            "mainClass": "Clase041",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase042",
+            "request": "launch",
+            "mainClass": "Clase042",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        }
+    ]
+}
