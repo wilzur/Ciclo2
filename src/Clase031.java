@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Clase031 {
   
     public static void main(String[] args) {
-        int j = 2 + 3 -7;
-        int c = 10 + 3 -7;
-        int d = 5 + 8 * 4 - 2 * 6;
-        int e = (5 + 8) * 4 - (2 * 6);
-        int f = (5 + 8) * (4 - 2) * 6;
-        System.out.println(j);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
+        int a = 2 + 3 -7;
+        int b = 10 + 3 -7;
+        int c = 5 + 8 * 4 - 2 * 6;
+        int d = (5 + 8) * 4 - (2 * 6);
+        int e = (5 + 8) * (4 - 2) * 6;
+        System.out.println("L variable a es: " + a);
+        System.out.println("L variable b es: " + b);
+        System.out.println("L variable c es: " + c);
+        System.out.println("L variable d es: " + d);
+        System.out.println("L variable e es: " + e);
         elsaludo();
     }
     public static void elsaludo() {

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NuevaInversion",
+            "request": "launch",
+            "mainClass": "NuevaInversion",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clase051",
+            "request": "launch",
+            "mainClass": "Clase051",
+            "projectName": "Ciclo2-clase01_e5dbe93b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

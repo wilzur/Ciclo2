@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 
 public class Clase032 {
     public static void main(String[] args) {
@@ -7,12 +9,13 @@ public class Clase032 {
         var sc = new Scanner(System.in);
         System.out.println("Ingrese la fecha de nacimiento (dd/mm/yyy): ");
         var fecha = sc.next();
-        System.out.println(fecha);
-        //System.out.println(fecha.trim());
+        System.out.println("La fecha ingresada es: " + fecha);
+        //System.out.println("La fecha recortada es: " + fecha.trim());
         fecha = fecha.trim();
         //21/09/1971
         fecha = fecha.replaceAll("/", "");
-        System.out.println(fecha);
+        System.out.println("La fecha recortada es: " + fecha);
+        //System.out.println("La fecha recortada es: " + fecha.replaceAll("/", ""));
         
         int dia = Integer.valueOf(fecha.substring(0,2));
         System.out.print(dia);
